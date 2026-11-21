@@ -19,6 +19,14 @@
     <name>rune-spring-boot-starter</name>
     <description>Spring Boot auto-configuration for injecting Rune secrets as Spring properties</description>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Github Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/runelock-io/rune-java-sdk</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <java.version>17</java.version>
     </properties>
